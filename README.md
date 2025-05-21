@@ -46,10 +46,13 @@ Compared model trade-offs and practical implications for large-scale deployment.
 ## 📈 Power BI Dashboard Snapshot
 ![image](https://github.com/user-attachments/assets/e7981915-23a7-45f7-b3bd-58e20dcaa1f7)
 
-##📦 Tech Stack
+## 📦 Tech Stack
 Language: Python
+
 Framework: PySpark (Apache Spark MLlib)
+
 Visualization: Power BI
+
 Tools: Jupyter Notebook, Pandas, Matplotlib (for initial plots)
 
 ## 🔚 Final Thoughts
