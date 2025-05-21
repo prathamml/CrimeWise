@@ -24,12 +24,13 @@ Label Encoding: Convert string labels into numeric form using StringIndexer.
 
 🧠 Step 3: Model Training & Evaluation
 Trained five different model combinations:
-Model Type	Feature Representation
-Logistic Regression	CountVectorizer
-Logistic Regression	TF-IDF
-Logistic Regression	Word2Vec
-Naive Bayes	CountVectorizer
-Naive Bayes	TF-IDF
+| Model Type          | Feature Representation |
+| ------------------- | ---------------------- |
+| Logistic Regression | CountVectorizer        |
+| Logistic Regression | TF-IDF                 |
+| Logistic Regression | Word2Vec               |
+| Naive Bayes         | CountVectorizer        |
+| Naive Bayes         | TF-IDF                 |
 
 Metrics Evaluated:
 Accuracy, Precision, Recall, F1-score, AUC-ROC
@@ -38,3 +39,6 @@ Accuracy, Precision, Recall, F1-score, AUC-ROC
 Best result: TF-IDF + Naive Bayes with 99.53% accuracy.
 Performance metrics visualized using Power BI dashboard.
 Compared model trade-offs and practical implications for large-scale deployment.
+
+## 🧭 System Flow Diagram
+![image](https://github.com/user-attachments/assets/4a2809d6-cc09-4b1d-91f1-e46252acfe7e)
